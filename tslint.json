@@ -59,7 +59,8 @@
     "no-eval": true,
     "no-inferrable-types": [
       true,
-      "ignore-params"
+      "ignore-params",
+      "ignore-properties"
     ],
     "no-misused-new": true,
     "no-non-null-assertion": true,
@@ -118,13 +119,13 @@
     "directive-selector": [
       true,
       "attribute",
-      "app",
+      "golf",
       "camelCase"
     ],
     "component-selector": [
       true,
       "element",
-      "app",
+      "golf",
       "kebab-case"
     ],
     "angular-whitespace": [true, "check-interpolation"],
